@@ -1,0 +1,230 @@
+@media screen and (max-width:1024px) {
+    #nav{
+        display: none;
+    }
+
+    #hamburger-nav{
+        display: block;
+        display: flex;
+        background-color: white;
+        
+    }
+    .menu-links{
+        /* display: none; */
+        /* background-color: brown; */
+        height: 150px;
+        width: 120px;
+        position: absolute;
+        top: 50px;
+        right: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s ease-in;
+        
+        
+
+    }
+
+    .menu-links a{
+        /* background-color: blueviolet; */
+    
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: black;
+        
+        
+    }
+
+    .menu-links li{
+        list-style: none;
+        /* transition: all .3ms ease-in-out; */
+    }
+
+    .menu-links{
+        display: none;
+        /* transition: all .3ms ease-in-out; */
+        
+    }
+
+    .menu-links.active{
+        display: block;
+        
+    }
+
+    .developer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-1{
+        height: auto;
+        width: auto;
+        padding: 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #hamburger-nav{
+        flex-direction: column;
+    }
+/* 
+    #menu-links ul {
+
+        width: 50vw; */
+        
+        /* margin-left: -4rem; */
+        /* display: flex;
+        flex-direction: row;
+        
+        background-color: rgb(215, 215, 215);
+    } */
+/* 
+    #menu-links ul li a{
+        font-size: 1rem;
+    } */
+
+
+    #menu-links ul{
+        
+        display: flex;
+        position: relative;
+        right: 6rem;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    /* #menu-links ul li a{
+        border-radius: 40px;
+        padding: 2px;
+        box-shadow: 3px 3px 20px black;
+    } */
+
+
+    #profile{
+        gap: 0;
+        flex-direction: column;
+    }
+.section-pic{
+    margin-top: 18vh;
+}
+
+
+.edu-text button{
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+}
+
+.about-text{
+     margin-left: 10vw ;
+     margin-right: 10vw ;
+}
+
+.edu-1 h1{
+    
+    /* flex-wrap: wrap; */
+}
+
+#about,#skills,#project,#contact{
+    height: 150vh;
+}
+
+.footer{
+    bottom: -600vh;
+}
+
+.section-pic img{
+    width: 20rem;
+}
+    
+.img-text{
+    flex-direction: column;
+}
+
+.img-text img{
+    width: 20rem;
+}
+
+.developer{
+    flex-direction: column;
+}
+
+
+
+.front-stack {
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.frontend{
+    height: auto;
+    width: auto;
+    padding: 20px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 5px;
+
+    
+
+}
+.backend{
+    height: auto;
+    width: auto;
+    padding: 20px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 5px;
+    
+}
+
+
+.for-contact{
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-menu ul{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.contact{
+    height: 70vh;
+}
+}
+
+@media screen and (max-width: 425px) {
+
+    #menu-links ul{
+        
+        display: flex;
+        position: relative;
+        right: 4rem;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    #menu-links ul li a{
+        font-size: 1.2rem;
+    }
+    
+}

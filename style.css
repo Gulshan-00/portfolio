@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+
+body{
+    /* padding: 0 40px 0 40px; */
+    
+}
+nav{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    background-color: white;
+}
+
+nav{
+    
+    /* background-color: rgb(237, 237, 237); */
+    height: 14vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    gap: 4rem;
+}
+
+.nav-links a{
+    /* margin: 30px; */
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-decoration-color: white;
+    
+}
+.nav-links a:hover{
+    color: grey;
+    text-decoration:underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo{
+    font-size: 1.8rem;
+}
+.logo:hover{
+    cursor: default;
+}
+
+/* Hamburger menu */
+
+#hamburger-nav{
+    display: none;
+    
+}
+.hamburger-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+/* section */
+
+section{
+
+    height: 100vh;
+    
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.section-pic img{
+    
+   width: 25rem;
+   
+}
+
+.btn-container{
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.section-text{
+   
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+
+.section-text-p1{
+    font-weight: 600;
+}
+.section-text-p2{
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: rgb(79, 79, 79);
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.btn-container{
+    gap: 1rem;
+}
+
+.btn{
+    padding: 12px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: whitesmoke;
+    
+}
+
+.media-icon{
+    display: flex;
+    gap: 1rem;
+}
+
+.icon{
+    cursor: pointer;
+    width: 2rem;
+   
+    
+}
+
+/* About Section */
+
+
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    
+}
+
+#about div p{
+    font-weight: 300;
+}
+
+.img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.mobile-pic{
+    flex-basis: 30%;
+    width: 25rem;
+    border-radius: 50rem;
+}
+
+.edu-text{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.edu-text button img{
+    width: 3vw;
+
+}
+
+.edu-text button{
+    width: 30vw;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.about-text{
+    text-align: center;
+}
+
+
+
+
+
+/* SKILLS CSS */
+
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.developer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.frontend{
+    height: 26rem;
+    width: 40vw;
+    /* flex-basis: 40%; */
+    /* background-color: aqua; */
+    border: 1px solid black;
+    border-radius: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+
+}
+.dev{
+
+    grid-column: span 2;
+
+
+}
+
+.backend{
+    height: 26rem;
+    width: 40vw;
+    border: 1px solid black;
+    border-radius: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* flex-basis: 40%; */
+    /* background-color: blue; */
+
+}
+
+.front-stack{
+    margin-top: 20px;
+}
+
+.frontend h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    
+}
+
+.backend h2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.front-stack1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 2vw; */
+}
+
+.front-stack1 img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.skill-text{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.skill-text p{
+  margin-left: 25px;
+}
+
+
+
+
+/* contact */
+
+
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.for-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    border: 1px solid black;
+    border-radius: 2rem;
+    
+    gap: 20px;
+    height: 3rem;
+   
+   
+}
+.for-contact a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+.linkdin-icon{
+    width: 3rem;
+    cursor: pointer;
+}
+
+.email-icon{
+    width: 3rem;
+    cursor: pointer;
+}
+ 
+
+/* Project CSS */
+
+
+
+/* footer */
+
+.footer{
+    
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 170px;
+    position: absolute;
+    bottom: -400vh;
+}
+
+footer p{
+    font-size: .9rem;
+}
+
+
+
+
+
+
+#gototop{
+    color: black;
+    position: fixed;
+    height: 30px;
+    width: 30px;
+/* background-color: green; */
+    z-index: 10;
+    right: 50px;
+    bottom: 40px;
+    cursor: pointer;
+   
+    
+    
+}
+#gototop img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Project */
+
+#project{
+    width: auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.project-card{
+    display: flex;
+   gap: 30px;
+    
+}
+
+.project-1{
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.project-1 img{
+    width: 20vw;
+    border-radius: 3rem;
+}
+
+.project-button .btn-1{
+    gap: 200px;
+}
+
+.project-button a{
+    gap: 20rem;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 2rem;
+}
+.project-button a:hover{
+    color: white;
+    background-color: black;
+}
+
+.amazon-clone{
+   height: 16vw;
+}
+
+
+
+
