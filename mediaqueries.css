@@ -229,4 +229,37 @@
         font-size: 1.2rem;
     }
     
+    .frontend{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+
+    .front-stack{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    /* h2 .frontdev{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     */
+    #skills{
+        
+    margin-top: 40px;
+    }
+
+    #contact{
+        margin-top: -200px;
+    }
+
+    
 }
